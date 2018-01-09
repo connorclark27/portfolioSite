@@ -70,15 +70,13 @@
   <div class="small-12 medium-6 large-8 columns">
   <form action="contact.php" method="post"> 
     <!--Make sure to give each input a name attribute(name="")-->
-       <label>Name: </label><input name="name" type="text" size="21" maxlength="30" />
+       <label>Name: </label><input name="name" type="text" size="21" length="30" />
        <label>Email: </label><input name="email" type="text" size="21" maxlength="30" />
-       <label for="street">Street: </label><input name="street" type="text" size="21" maxlength="30" />
+       <label for="street" class="streetHide">Street: </label><input name="street" type="text" size="21" maxlength="30" class="streetHide"/>
        <label for="message">Message: </label><textarea name="message"></textarea>
        <input name="submit" type="submit" value="Send" />
     </form>
     </div>
-
-
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
@@ -86,5 +84,4 @@
 
     <script src="js/app.js"></script>
   </body>
-
 </html>
