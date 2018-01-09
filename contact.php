@@ -58,25 +58,31 @@
     <h1 id="workHeaderText">WORK</h1>
   </div>-->
 
-<section class="row">
-  <section class="small-12 medium-6 large-4 columns">
+<section class="contactParagraph row">
+  <section class="small-12 medium-6 large-8 columns">
+    <section class="contactText">
     <p id="contactParagraph">
       Have a cool project in mind? I'm available for freelance work - so fill out the contact form with a few details and I’ll get back to you as soon as I can!
     </p>
 
-    <p>
+    <p class="socialMedia">
       Follow me on Instagram for pictures of my dog, or connect with me on LinkedIn!
     </p>
+    </section>
   </section>
 
 
-  <div class="small-12 medium-6 large-8 columns">
-  <form action="contact.php" method="post"> 
+  <div class="small-12 medium-6 large-4 columns">
+  <form action="contact.php" method="post" class="contactForm"> 
     <!--Make sure to give each input a name attribute(name="")-->
-       <label>Name: </label><input name="name" type="text" size="21" length="30" />
-       <label>Email: </label><input name="email" type="text" size="21" maxlength="30" />
+       <label>Name:</label>
+       		<input id="nameInput" name="name" type="text" size="21" length="30"/>
+       <label>Email:</label>
+       		<input id="emailInput" name="email" type="text" size="21" maxlength="30" />
+       		<!--Catch Bots-->
        <label for="street" class="streetHide">Street: </label><input name="street" type="text" size="21" maxlength="30" class="streetHide"/>
-       <label for="message">Message: </label><textarea name="message"></textarea>
+       <label for="message">Message:</label>
+       		<textarea id="messageInput" name="message"></textarea>
        <input name="submit" type="submit" value="Send" />
     </form>
     </div>

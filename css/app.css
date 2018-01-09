@@ -24,6 +24,16 @@ body
   font-weight: 400;
 }
 
+label
+{
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: din-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .logo
 {
   width: 35px;
@@ -1345,17 +1355,17 @@ ANIMATION KEYFRAMES
 
 #nameInput
 {
-  width: 100px;
+  width: 200px;
 }
 
 #emailInput
 {
-  width: 200px;
+  width: 300px;
 }
 
 #messageInput
 {
-  width: 250px;
+  width: 400px;
   height: 300px;
 }
 
@@ -1413,4 +1423,31 @@ ANIMATION KEYFRAMES
 #backToHome:hover
 {
   background-color: rgba(255, 255, 255, .2);
+}
+
+.contactForm
+{
+  display: block;
+  margin-left: 0px;
+}
+
+.contactParagraph
+{
+  margin-top: 40px;
+}
+
+.contactText
+{
+  margin-left: 40px;
+}
+
+.socialMedia
+{
+  margin-top: 40px;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: din-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
