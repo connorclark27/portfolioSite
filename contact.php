@@ -1,0 +1,90 @@
+<?php
+	require_once("admin/scripts/config.php");
+	if(isset($_POST['name'])){
+		$name = $_POST['name'];
+		$email = $_POST['email'];
+		$message = $_POST['message'];
+		$street = $_POST['street'];
+		$direct = "thankyou.php";
+
+			if($street === "") {
+				$sendMail = submitMessage($name, $email, $message, $direct);
+				//echo "Street is empty";
+			}
+
+	}
+?>
+
+</html>
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Connor Clark | Home</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/gpa5ynz.css">
+  </head>
+
+  <body id="contactBody">
+  <div id="sideNavigation" class="sidenav">
+    <a href="index.html" id="page1">HOME</a>
+    <a href="work.html" id="page2">WORK</a>
+    <a href="contact.html" id="page3">CONTACT</a>
+  </div>
+
+  <div id="hamburgMove">
+    <span onclick="openNav()">
+      <div id="nav-iconBlack3" class="hamburgerIcon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+    </span>
+  </div>
+
+  <header>
+    <img src="images/logo_dark.svg" class="logo"/>
+  </header>
+
+  <!--<div id="workHeader" class="homeAnimation1">
+    <h1 id="workHeaderText">WORK</h1>
+  </div>-->
+
+<section class="row">
+  <section class="small-12 medium-6 large-4 columns">
+    <p id="contactParagraph">
+      Have a cool project in mind? I'm available for freelance work - so fill out the contact form with a few details and I’ll get back to you as soon as I can!
+    </p>
+
+    <p>
+      Follow me on Instagram for pictures of my dog, or connect with me on LinkedIn!
+    </p>
+  </section>
+
+
+  <div class="small-12 medium-6 large-8 columns">
+  <form action="contact.php" method="post"> 
+    <!--Make sure to give each input a name attribute(name="")-->
+       <label>Name: </label><input name="name" type="text" size="21" maxlength="30" />
+       <label>Email: </label><input name="email" type="text" size="21" maxlength="30" />
+       <label for="street">Street: </label><input name="street" type="text" size="21" maxlength="30" />
+       <label for="message">Message: </label><textarea name="message"></textarea>
+       <input name="submit" type="submit" value="Send" />
+    </form>
+    </div>
+
+
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+
+    <script src="js/app.js"></script>
+  </body>
+
+</html>
