@@ -1,5 +1,6 @@
 <?php
-	
+
+
 	//Open connection to our database
 	include('connect.php');
 

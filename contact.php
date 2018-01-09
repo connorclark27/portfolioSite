@@ -1,4 +1,8 @@
 <?php
+
+	ini_set('display_errors',1);
+	error_reporting(E_ALL);
+
 	require_once("admin/scripts/config.php");
 	if(isset($_POST['name'])){
 		$name = $_POST['name'];
@@ -15,7 +19,6 @@
 	}
 ?>
 
-</html>
 
 <!doctype html>
 <html class="no-js" lang="en">
@@ -31,9 +34,9 @@
 
   <body id="contactBody">
   <div id="sideNavigation" class="sidenav">
-    <a href="index.html" id="page1">HOME</a>
-    <a href="work.html" id="page2">WORK</a>
-    <a href="contact.html" id="page3">CONTACT</a>
+    <a href="index.php" id="page1">HOME</a>
+    <a href="work.php" id="page2">WORK</a>
+    <a href="contact.php" id="page3">CONTACT</a>
   </div>
 
   <div id="hamburgMove">

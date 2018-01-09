@@ -1363,3 +1363,54 @@ ANIMATION KEYFRAMES
 {
   display: none;
 }
+
+
+#thanksParagraph
+{
+  color: #232323;
+  font-size: 48px;
+  letter-spacing: 3px;
+  font-family: "minion-pro-condensed-display";
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#thanksBody
+{
+  background-color: #eaeaea;
+}
+
+#getBackToYou
+{
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: din-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#backToHome
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: #232323;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-family: "minion-pro-condensed-display";
+  font-weight: 400;
+  font-style: italic;
+  width: 200px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#backToHome:hover
+{
+  background-color: rgba(255, 255, 255, .2);
+}

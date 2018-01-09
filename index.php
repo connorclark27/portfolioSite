@@ -21,9 +21,9 @@
 
   <body id="homeBody">
   <div id="sideNavigation" class="sidenav">
-    <a href="index.html" id="page1">HOME</a>
-    <a href="work.html" id="page2">WORK</a>
-    <a href="contact.html" id="page3">CONTACT</a>
+    <a href="index.php" id="page1">HOME</a>
+    <a href="work.php" id="page2">WORK</a>
+    <a href="contact.php" id="page3">CONTACT</a>
   </div>
 
   <div id="hamburgMove">

@@ -14,16 +14,9 @@ function submitMessage($name, $email, $message, $direct) {
 	$subj = "Message from customer submitted via connorclark.ca";
 	$extra = "Reply-To:".$email;
 	$msg = "Name: ".$name."\n\nEmail: ".$email."\n\nComments: ".$message;
-	//mail($to,$subj,$msg,$extra);
+	mail($to,$subj,$msg,$extra);
 	$direct = $direct."?name={$name}";
 	redirect_to($direct);
  }
 
 ?>
-
-
-
-<!doctype html>
-<html class="no-js" lang="en">
-  
-</html>
