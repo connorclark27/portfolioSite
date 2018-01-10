@@ -33,6 +33,7 @@
   </div>
 
   <header>
+    <h1 class="hidden">Western TV</h1>
     <img src="images/logo_dark.svg" class="logo"/>
   </header>
 
@@ -41,12 +42,14 @@
   </div>-->
 
   <section class="row fullWidth">
+        <h1 class="hidden">Western TV Logo</h1>
         <div class="small-12 medium-12 large-12 columns">
           <img src="images/wtvLogo.gif" width: 100% height: 100%>
         </div>
     </section>
 
   <section class="row">
+    <h1 class="hidden">Description</h1>
     <div class="small-12 medium-12 large-12 caseStudySectionCenter columns">
       <p class="caseParagraphCenter">
         As the largest student video network in Canada, Western TV produces YouTube videos catered primarily to 18-22 year olds. As an Interactive Media Editor at Western TV, my roll was to establish a visual identity, produce weekly videos, and promote live events through social media. 
@@ -57,6 +60,7 @@
 
 
   <section class="caseStudySection row">
+        <h1 class="hidden">Live Ad Video</h1>
         <div class="small-12 medium-12 large-4 videoCenter columns">
           <video id="video" controls style="width:350px; height:196.78px" poster="images/livePromoPoster.jpg">
               <source id="mp4" src="videos/livePromo.mp4" type="video/mp4">
@@ -70,6 +74,7 @@
   </section>
 
   <section class="caseStudySectionSmall row">
+        <h1 class="hidden">Workmark Development</h1>
         <div class="small-12 medium-12 large-12 columns">
         <p class="caseStudyHeadingCenter">
           WORKMARK DEVELOPMENT
@@ -81,6 +86,7 @@
     </section>
 
     <section class="row">
+        <h1 class="hidden">Logos</h1>
         <div class="small-4 medium-4 large-4 columns">
           <img src="images/wtvLogoWhite.svg" width: 400px height: 400px>
         </div>
@@ -93,6 +99,7 @@
     </section>
 
     <section class="caseStudySectionLarge row">
+        <h1 class="hidden">Motion Textures</h1>
         <div class="small-12 medium-12 large-12 columns">
         <p class="caseStudyHeadingCenter">
           MOTION TEXTURES
@@ -104,6 +111,7 @@
     </section>
 
     <section class="row">
+        <h1 class="hidden">Motion Textures Video</h1>
         <div class="small-12 medium-12 large-12 videoCenter columns">
           <video id="video" controls style="width:500px; height:281.25px" poster="images/livePromoPoster.jpg">
               <source id="mp4" src="videos/livePromo.mp4" type="video/mp4">
@@ -113,6 +121,7 @@
     </section>
 
     <section class="caseStudySectionLarge row">
+        <h1 class="hidden">Weekly Videos</h1>
         <div class="small-12 medium-12 large-12 columns">
         <p class="caseStudyHeadingCenter">
           WEEKLY VIDEOS
@@ -124,6 +133,7 @@
     </section>
 
     <section class="row">
+        <h1 class="hidden">Weekly Videos - YouTube</h1>
         <div class="responsive-embed small-12 medium-12 large-6  videoCenter columns">
           <iframe width="400" height="225" src="https://www.youtube.com/embed/oF3VZTnIJM8" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -141,6 +151,7 @@
 
 
     <section class="caseStudySection row">
+      <h1 class="hidden">Back to Home</h1>
       <div class="small-12 medium-12 large-12 columns">
         <a href="work.php"><div id="backToHome">BACK TO WORK</div></a>
       </div>

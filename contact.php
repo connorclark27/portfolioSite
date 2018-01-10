@@ -51,6 +51,7 @@
   </div>
 
   <header>
+    <h1 class="hidden">Contact Page</h1>
     <img src="images/logo_dark.svg" class="logo"/>
   </header>
 
@@ -59,8 +60,11 @@
   </div>-->
 
 <section class="contactParagraph row">
+  <h1 class="hidden">Contact</h1>
   <section class="small-12 medium-12 large-8 columns">
+    <h1 class="hidden">Description</h1>
     <section class="contactText">
+      <h1 class="hidden">Social Media</h1>
     <p id="contactParagraph">
       Have a cool project in mind? I'm available for freelance work - so fill out the contact form with a few details and I’ll get back to you as soon as I can!
     </p>

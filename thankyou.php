@@ -33,6 +33,7 @@
   </div>
 
   <header>
+    <h1 class="hidden">Thank You Page</h1>
     <img src="images/logo_dark.svg" class="logo"/>
   </header>
 
@@ -41,7 +42,9 @@
   </div>-->
 
 <section class="row">
+  <h1 class="hidden">Thank you!</h1>
   <section class="small-12 medium-12 large-12 columns">
+    <h1 class="hidden">I'll get back to you shortly.</h1>
     <p id="thanksParagraph">
       Thanks for reaching out!
     </p>

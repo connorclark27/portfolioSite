@@ -33,6 +33,7 @@
   </div>
 
   <header>
+    <h1 class="hidden">vivaNext</h1>
     <img src="images/logo_dark.svg" class="logo"/>
   </header>
 
@@ -41,11 +42,14 @@
   </div>-->
 
   <section class="row">
+      <h1 class="hidden">Logo</h1>
       <section class="small-12 medium-12 large-12 columns">
+          <h1 class="hidden">Logo</h1>
           <img id="vivaLogo" src="images/vivaLogo.svg">
       </section>
   </section>
   <section class="row">
+    <h1 class="hidden">Description</h1>
     <div class="small-12 medium-12 large-12 caseStudySectionCenter columns">
       <p class="caseParagraphCenter">
         In 2016 and 2017, I was lucky enough to work with vivaNext as a Digital Media Summer Student for two consecutive years. In my time at vivaNext, I specialized in animation and video work, with occasional poster design mixed in as well.
@@ -56,6 +60,7 @@
 
 
   <section class="caseStudySection row">
+        <h1 class="hidden">VMC Hub Animation Video</h1>
         <div class="small-12 medium-12 large-4 videoCenter columns">
           <video id="video" controls style="width:350px; height:196.78px" poster="images/vmcPoster.jpg">
               <source id="mp4" src="videos/vmc.mp4" type="video/mp4">
@@ -69,6 +74,7 @@
   </section>
 
   <section class="caseStudySection row">
+        <h1 class="hidden">Utilities Video</h1>
         <div class="small-12 small-pull-12 medium-12 large-4 large-push-8 videoCenter columns">
           <video id="video" controls style="width:350px; height:196.78px" poster="images/utilitiesPoster.jpg">
               <source id="mp4" src="videos/utilities.mp4" type="video/mp4">
@@ -82,6 +88,7 @@
   </section>
 
   <section class="caseStudySectionSmall row">
+        <h1 class="hidden">Motion Identity</h1>
         <div class="small-12 medium-12 large-12 columns">
         <p class="caseStudyHeadingCenter">
           MOTION IDENTITY
@@ -93,13 +100,26 @@
     </section>
 
     <section class="row">
+        <h1 class="hidden">Motion Identity Animation</h1>
         <div class="small-12 medium-12 large-12 columns">
           <img src="images/motionIdentity.gif" width: 100% height: 100%>
         </div>
     </section>
 
+    <section class="caseStudySectionLarge row">
+        <h1 class="hidden">Hypermobile Ads</h1>
+        <div class="small-12 medium-12 large-4 videoCenter columns">
+          <img src="images/hypermobile.gif" width: 50% height: 50%>
+        </div>
+        <div class="small-12 medium-12 large-8 caseParagraphHyper columns">
+          <h3 class="caseStudyHeading">HYPERMOBILE ADS</h3>
+          <p>For the opening of the Toronto York Subway Extension, I was tasked with creating a promotional video to raise awareness of the Vaughan Metropolitan Centre: a transit hub to allow passengers to move seamlessly from subway to bus rapid transit. I used isometric illustration to show the many layers of the area, from platform, to concourse, to bus terminal. </p>
+        </div>
+  </section>
+
 
     <section class="caseStudySection row">
+      <h1 class="hidden">Back to Work</h1>
       <div class="small-12 medium-12 large-12 columns">
         <a href="work.php"><div id="backToHome">BACK TO WORK</div></a>
       </div>

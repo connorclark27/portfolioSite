@@ -27,21 +27,6 @@
 
     //var_dump($rows);
     echo json_encode($rows);
- 
-  }
-
-  
-
-  //get a single row using a query parameter
-  if (isset($_GET['carModel'])) { //see if there's  parameter called carModel
-    $car = $_GET['carModel']; //whatever comes after the ?
-
-  $myQuery = "SELECT * FROM mainmodel WHERE model = '$car'";
-  $result = mysqli_query($conn, $myQuery);
-
-  $row = mysqli_fetch_assoc($result);
-
-  echo json_encode($row);
   }
 
 ?>

@@ -53,6 +53,7 @@
 </section>
 
 <section id="demoReelHide">
+  <h1 class="hidden">Demo Reel</h1>
   <iframe src="https://player.vimeo.com/video/199282169?color=006bff&title=0&byline=0&portrait=0"
   width="600" height="337.5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </section>

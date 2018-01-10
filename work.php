@@ -33,6 +33,7 @@
   </div>
 
   <header>
+  <h1 class="hidden">Work</h1>
     <img src="images/logo_dark.svg" class="logo"/>
   </header>
 
