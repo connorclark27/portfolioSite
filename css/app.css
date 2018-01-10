@@ -1324,7 +1324,14 @@ ANIMATION KEYFRAMES
 }
 
 
-/*CONTACT PAGE*/
+
+
+/*
+-------------------------------------------------------
+CONTACT PAGE
+-------------------------------------------------------
+*/
+
 #contactBody
 {
   background-color: #eaeaea;
@@ -1334,7 +1341,7 @@ ANIMATION KEYFRAMES
 #contactParagraph
 {
   color: #232323;
-  font-size: 36px;
+  font-size: 26px;
   letter-spacing: 3px;
   font-family: "minion-pro-condensed-display";
   font-weight: 400;
@@ -1356,17 +1363,31 @@ ANIMATION KEYFRAMES
 #nameInput
 {
   width: 200px;
+  border: 1px solid #232323;
 }
 
 #emailInput
 {
   width: 300px;
+  border: 1px solid #232323;
 }
 
 #messageInput
 {
   width: 400px;
-  height: 300px;
+  height: 200px;
+  border: 1px solid #232323;
+}
+
+#sendButton
+{
+  background-color: #eaeaea;
+  border: 1px solid #232323;
+}
+
+#sendButton:hover
+{
+  background-color: rgba(255, 255, 255, .5);
 }
 
 .streetHide
@@ -1374,6 +1395,105 @@ ANIMATION KEYFRAMES
   display: none;
 }
 
+.contactForm
+{
+}
+
+.formCenter
+{
+  display: block;
+  margin: 0 auto;
+}
+
+.contactParagraph
+{
+  margin-top: 40px;
+}
+
+.contactText
+{
+  margin-left: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 100px;
+}
+
+.socialMedia
+{
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: din-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.socialIcons
+{
+  width: 30px;
+  opacity: 1;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.socialIcons:hover
+{
+  opacity: .5;
+}
+
+#socialIconCont
+{
+  display: block;
+  margin: auto;
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+}
+
+@media only screen and (max-width: 1024px)
+          {
+            .contactParagraph
+            {
+              margin-top: 50px;
+              padding: 0;
+            }
+
+            .contactForm
+            {
+              margin-left: 300px;
+              margin-top: 50px;
+              padding: 0;
+            }
+
+            .formCenter
+            {
+              padding-left: 0;
+              display: block;
+              float: left;
+            }
+          }
+@media only screen and (max-width: 640px)
+          {
+            .contactParagraph
+            {
+              margin-top: 0px;
+              padding: 0;
+            }
+
+            .contactForm
+            {
+              margin: 0 auto;
+            }
+          }
+
+/*
+-------------------------------------------------------
+THANKYOU PAGE
+-------------------------------------------------------
+*/
 
 #thanksParagraph
 {
@@ -1423,31 +1543,4 @@ ANIMATION KEYFRAMES
 #backToHome:hover
 {
   background-color: rgba(255, 255, 255, .2);
-}
-
-.contactForm
-{
-  display: block;
-  margin-left: 0px;
-}
-
-.contactParagraph
-{
-  margin-top: 40px;
-}
-
-.contactText
-{
-  margin-left: 40px;
-}
-
-.socialMedia
-{
-  margin-top: 40px;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 2px;
-  font-family: din-condensed, sans-serif;
-  font-style: normal;
-  font-weight: 400;
 }
