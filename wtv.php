@@ -92,18 +92,52 @@
         </div>
     </section>
 
-    <section class="caseStudySection row">
-        <div class="small-12 small-pull-12 medium-12 large-4 large-push-8 videoCenter columns">
-          <video id="video" controls style="width:350px; height:196.78px" poster="images/utilitiesPoster.jpg">
-              <source id="mp4" src="videos/utilities.mp4" type="video/mp4">
+    <section class="caseStudySectionLarge row">
+        <div class="small-12 medium-12 large-12 columns">
+        <p class="caseStudyHeadingCenter">
+          MOTION TEXTURES
+        </p>
+        <p class="caseParagraphCenter">
+          While developing the Western TV visual identity, I wanted to utilize some unique textures to be used in graphics and video content. While almot all of the content we produce is viewd on a screen, motion can be included. To create the marble textures, I combined boiling water and corn starch with black and white acrylic paint. I filmed the mixture flowing around a cooking pan, and added the teal colour and speed remapping in post production. 
+        </p>
+        </div>
+    </section>
+
+    <section class="row">
+        <div class="small-12 medium-12 large-12 videoCenter columns">
+          <video id="video" controls style="width:500px; height:281.25px" poster="images/livePromoPoster.jpg">
+              <source id="mp4" src="videos/livePromo.mp4" type="video/mp4">
               <p>Your browser does not support HTML5 Video!</p>
           </video>
         </div>
-        <div class="small-12 medium-12 large-8 large-pull-4 caseParagraphLeft columns">
-          <h3 class="caseStudyHeading">MOTION TEXTURES</h3>
-          <p>For the opening of the Toronto York Subway Extension, I was tasked with creating a promotional video to raise awareness of the Vaughan Metropolitan Centre: a transit hub to allow passengers to move seamlessly from subway to bus rapid transit. I used isometric illustration to show the many layers of the area, from platform, to concourse, to bus terminal. </p>
+    </section>
+
+    <section class="caseStudySectionLarge row">
+        <div class="small-12 medium-12 large-12 columns">
+        <p class="caseStudyHeadingCenter">
+          WEEKLY VIDEOS
+        </p>
+        <p class="caseParagraphCenter">
+          On a weekly basis, I was responsible for filming and editing videos to be shared on Facebook and social media. Some videos that covered specific events required tight turn around time with a next day delivery.
+        </p>
         </div>
-  </section>
+    </section>
+
+    <section class="row">
+        <div class="responsive-embed small-12 medium-12 large-6  videoCenter columns">
+          <iframe width="400" height="225" src="https://www.youtube.com/embed/oF3VZTnIJM8" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="responsive-embed small-12 medium-12 large-6  videoCenter columns">
+          <iframe width="400" height="225" src="https://www.youtube.com/embed/3DC5OVms8KI" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="responsive-embed small-12 medium-12 large-6  videoCenter columns">
+          <iframe width="400" height="225" src="https://www.youtube.com/embed/WY_6AIgEGLU" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="responsive-embed small-12 medium-12 large-6  videoCenter columns">
+          <iframe width="400" height="225" src="https://www.youtube.com/embed/BhsWOaEn6NM" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+    </section>
 
 
     <section class="caseStudySection row">
