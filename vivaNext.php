@@ -57,7 +57,7 @@
 
   <section class="caseStudySection row">
         <div class="small-12 medium-12 large-4 videoLeft columns">
-          <video id="video" controls style="width:350px; height:196.78px" poster="images/01.png">
+          <video id="video" controls style="width:350px; height:196.78px" poster="images/vmcPoster.jpg">
               <source id="mp4" src="videos/vmc.mp4" type="video/mp4">
               <p>Your browser does not support HTML5 Video!</p>
           </video>
@@ -70,7 +70,7 @@
 
   <section class="caseStudySection row">
         <div class="small-12 small-pull-12 medium-12 large-4 large-push-8 videoRight columns">
-          <video id="video" controls style="width:350px; height:196.78px" poster="images/01.png">
+          <video id="video" controls style="width:350px; height:196.78px" poster="images/utilitiesPoster.jpg">
               <source id="mp4" src="videos/utilities.mp4" type="video/mp4">
               <p>Your browser does not support HTML5 Video!</p>
           </video>
@@ -92,6 +92,15 @@
         </div>
     </section>
 
+
+    <section class="row">
+        <div class="small-12 medium-12 large-12 columns">
+          <video id="video" loop autoplay style="width:100%; height:100%">
+              <source id="mp4" src="videos/motionIdentity.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 Video!</p>
+          </video>
+        </div>
+    </section>
 
     <section class="row">
         <div class="small-12 medium-12 large-12 columns">
