@@ -58,7 +58,7 @@
                 </video>
                   </div>
           <div class="overlay">
-          <a href="viva.html" class="titles">
+          <a href="vivaNext.php" class="titles">
             <div class="workText">
               <h2 class="workTitle01">VIVANEXT</h2>
               <div class="divider"></div>
@@ -87,7 +87,7 @@
                 </video>
                   </div>
           <div class="overlay">
-          <a href="wtv.html" class="titles">
+          <a href="wtv.php" class="titles">
             <div class="workText">
               <h2 class="workTitle02">WESTERN TV</h2>
               <div class="divider"></div>
@@ -116,7 +116,7 @@
                 </video>
                   </div>
           <div class="overlay">
-          <a href="loyalty.html" class="titles">
+          <a href="loyalty.php" class="titles">
             <div class="workText">
               <h2 class="workTitle03">LOYALTY ONE</h2>
               <div class="divider"></div>
@@ -145,7 +145,7 @@
                 </video>
                   </div>
           <div class="overlay">
-          <a href="fimssc.html" class="titles">
+          <a href="fimssc.php" class="titles">
             <div class="workText">
               <h2 class="workTitle04">FIMSSC</h2>
               <div class="divider"></div>
@@ -174,7 +174,7 @@
                 </video>
                   </div>
           <div class="overlay">
-          <a href="gazette.html" class="titles">
+          <a href="gazette.php" class="titles">
             <div class="workText">
               <h2 class="workTitle05">THE GAZETTE</h2>
               <div class="divider"></div>
@@ -203,7 +203,7 @@
                 </video>
                   </div>
           <div class="overlay">
-          <a href="personal.html" class="titles">
+          <a href="personal.php" class="titles">
             <div class="workText">
               <h2 class="workTitle06">PERSONAL PROJECTS</h2>
               <div class="divider"></div>

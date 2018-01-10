@@ -1585,8 +1585,6 @@ VIVA PAGE
   font-style: italic;
   letter-spacing: 0px;
   text-align: center;
-  margin-top: 400px;
-  margin-bottom: 40px;
   width: 70%;
   display: block;
   margin: 0 auto;
@@ -1643,6 +1641,11 @@ VIVA PAGE
 .caseStudySection
 {
   margin-bottom: 100px;
+}
+
+.caseStudySectionSmall
+{
+  margin-bottom: 50px;
 }
 
 .caseStudySectionCenter

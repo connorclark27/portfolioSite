@@ -71,7 +71,7 @@
   <section class="caseStudySection row">
         <div class="small-12 small-pull-12 medium-12 large-4 large-push-8 videoRight columns">
           <video id="video" controls style="width:350px; height:196.78px" poster="images/01.png">
-              <source id="mp4" src="videos/vmc.mp4" type="video/mp4">
+              <source id="mp4" src="videos/utilities.mp4" type="video/mp4">
               <p>Your browser does not support HTML5 Video!</p>
           </video>
         </div>
@@ -81,27 +81,29 @@
         </div>
   </section>
 
-    <p class="caseStudyHeadingCenter">
-      MOTION IDENTITY
-    </p>
-    <p class="caseParagraphCenter">
-      While vivaNext had strong branding in the form of their logo and chevron marking, the two symbols where never linked. Through the new motion identity I created, the idea of moving people forward is further pushed with combining the chevron with the vivaNext brand. The motion identity was then applied to the start of all YouTube and FaceBook videos. 
-    </p>
-
-    <section class="row">
-        <div class="small-4 medium-4 large-4 columns">
-          <img id="vivaLogo" src="images/vivaLogo.svg">
-        </div>
-        <div class="small-4 medium-4 large-4 columns">
-          <img id="vivaLogo" src="images/chevron.svg">
-        </div>
-        <div class="small-4 medium-4 large-4 columns">
-          <img id="vivaLogo" src="images/vivaLogo.svg">
+  <section class="caseStudySectionSmall row">
+        <div class="small-12 medium-12 large-12 columns">
+        <p class="caseStudyHeadingCenter">
+          MOTION IDENTITY
+        </p>
+        <p class="caseParagraphCenter">
+          While vivaNext had strong branding in the form of their logo and chevron marking, the two symbols where never linked. Through the new motion identity I created, the idea of moving people forward is further pushed with combining the chevron with the vivaNext brand. The motion identity was then applied to the start of all YouTube and FaceBook videos. 
+        </p>
         </div>
     </section>
 
 
     <section class="row">
+        <div class="small-12 medium-12 large-12 columns">
+          <video id="video" loop autoplay style="width:100%; height:100%">
+              <source id="mp4" src="videos/motionIdentity.mp4" type="video/mp4">
+              <p>Your browser does not support HTML5 Video!</p>
+          </video>
+        </div>
+    </section>
+
+
+    <section class="caseStudySection row">
       <div class="small-12 medium-12 large-12 columns">
         <a href="work.php"><div id="backToHome">BACK TO WORK</div></a>
       </div>
