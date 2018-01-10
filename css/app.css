@@ -522,7 +522,7 @@ HOME PAGE
   padding: 5px;
   display: block;
   margin: 0 auto;
-  margin-top: 700px;
+  margin-top: 100px;
   -webkit-transition: background-color .4s ease-out;
   -moz-transition: background-color .4s ease-out;
   -o-transition: background-color .4s ease-out;
@@ -549,6 +549,14 @@ HOME PAGE
   margin-bottom: 15px;
   opacity: 0;
 }
+
+@media only screen and (max-width: 1024px)
+          {
+            #hey
+            {
+              margin-top: 50px;
+            }
+          }
 
 /*Homepage Load Animation*/
 .homeAnimation1{
@@ -948,7 +956,10 @@ ANIMATION KEYFRAMES
     display: block;
     text-align: right; }
   #mainNav a {
-    display: block; } }
+    display: block; } 
+  }
+
+
 
 .fullscreen-bg
 {
@@ -992,6 +1003,11 @@ ANIMATION KEYFRAMES
 
   .fullscreen-bgVideo {
     display: none; } }
+
+
+
+
+
 
 
 /*WORK PAGE*/
@@ -1543,4 +1559,94 @@ THANKYOU PAGE
 #backToHome:hover
 {
   background-color: rgba(255, 255, 255, .2);
+}
+
+/*
+-------------------------------------------------------
+VIVA PAGE
+-------------------------------------------------------
+*/
+
+#vivaLogo
+{
+  width: 200px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.caseParagraphCenter
+{
+  color: #232323;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-family: "minion-pro-condensed-display";
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 400px;
+  margin-bottom: 40px;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.caseParagraphLeft
+{
+  color: #232323;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-family: "minion-pro-condensed-display";
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.caseParagraphRight
+{
+  color: #232323;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-family: "minion-pro-condensed-display";
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.caseStudyHeading
+{
+  color: #232323;
+  font-size: 24px;
+  letter-spacing: 3px;
+  font-family: "minion-pro-condensed-display";
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.caseStudyHeadingCenter
+{
+  color: #232323;
+  font-size: 24px;
+  letter-spacing: 3px;
+  font-family: "minion-pro-condensed-display";
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.caseStudySection
+{
+  margin-bottom: 100px;
+}
+
+.caseStudySectionCenter
+{
+  margin-bottom: 100px;
+  margin-top: 100px;
 }

@@ -54,7 +54,7 @@
 
 <section id="demoReelHide">
   <iframe src="https://player.vimeo.com/video/199282169?color=006bff&title=0&byline=0&portrait=0"
-  width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  width="600" height="337.5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </section>
 
 <div id="demoReelBackground">
