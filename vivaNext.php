@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width">
-    <title>Connor Clark | Home</title>
+    <title>Connor Clark | vivaNext</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="https://use.typekit.net/gpa5ynz.css">
@@ -56,7 +56,7 @@
 
 
   <section class="caseStudySection row">
-        <div class="small-12 medium-12 large-4 videoLeft columns">
+        <div class="small-12 medium-12 large-4 videoCenter columns">
           <video id="video" controls style="width:350px; height:196.78px" poster="images/vmcPoster.jpg">
               <source id="mp4" src="videos/vmc.mp4" type="video/mp4">
               <p>Your browser does not support HTML5 Video!</p>
@@ -69,7 +69,7 @@
   </section>
 
   <section class="caseStudySection row">
-        <div class="small-12 small-pull-12 medium-12 large-4 large-push-8 videoRight columns">
+        <div class="small-12 small-pull-12 medium-12 large-4 large-push-8 videoCenter columns">
           <video id="video" controls style="width:350px; height:196.78px" poster="images/utilitiesPoster.jpg">
               <source id="mp4" src="videos/utilities.mp4" type="video/mp4">
               <p>Your browser does not support HTML5 Video!</p>
@@ -92,22 +92,9 @@
         </div>
     </section>
 
-
     <section class="row">
         <div class="small-12 medium-12 large-12 columns">
-          <video id="video" loop autoplay style="width:100%; height:100%">
-              <source id="mp4" src="videos/motionIdentity.mp4" type="video/mp4">
-              <p>Your browser does not support HTML5 Video!</p>
-          </video>
-        </div>
-    </section>
-
-    <section class="row">
-        <div class="small-12 medium-12 large-12 columns">
-          <video id="video" loop autoplay style="width:100%; height:100%">
-              <source id="mp4" src="videos/motionIdentity.mp4" type="video/mp4">
-              <p>Your browser does not support HTML5 Video!</p>
-          </video>
+          <img src="images/motionIdentity.gif" width: 100% height: 100%>
         </div>
     </section>
 

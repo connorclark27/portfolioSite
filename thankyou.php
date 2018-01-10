@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width">
-    <title>Connor Clark | Home</title>
+    <title>Connor Clark | Thank You</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="https://use.typekit.net/gpa5ynz.css">

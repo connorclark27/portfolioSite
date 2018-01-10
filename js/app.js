@@ -52,3 +52,7 @@ function workAnimationIn() {
 function workAnimationOut() {
     document.getElementById("thumbNail").style.backgroundImage = "none";
 }*/
+
+
+/*Reset WTV gif everytime the page is loaded*/
+img.src = "wtvLogo.gif"+"?a="+Math.random();
