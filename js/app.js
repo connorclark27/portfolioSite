@@ -68,7 +68,7 @@ AJAX
   // start with retrieving the elements from the page, and then adding event handling. then write the logic. refer to the seasons example / homework
    var portfolioImages = document.querySelectorAll('.data-ref');
 
-   const httpRequest = new XMLHttpRequest();
+   //const httpRequest = new XMLHttpRequest();
 
    function getCarData() {
 

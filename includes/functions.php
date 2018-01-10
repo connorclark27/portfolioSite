@@ -1,6 +1,6 @@
 <?php
   $user = 'root';
-  $pass = 'root'; // this should be a blank host for windows machines
+  $pass = ''; // this should be a blank host for windows machines
   $host = 'localhost';
   $db = 'portfoliosite'; // whatever you called your dataBase
 
@@ -14,18 +14,23 @@
 
   //echo "Connected!";
 
+  if (isset($_GET['getAllVideos'])) {
+    $myQuery = "SELECT * FROM tbl_photos";
+    $result = mysqli_query($conn, $myQuery);
 
-  $myQuery = "SELECT * FROM mainmodel";
-  $result = mysqli_query($conn, $myQuery);
+    $rows = array();
 
-  $rows = array();
+    while($row = mysqli_fetch_assoc($result)) {
+      $rows[] = $row;
 
-  while($row = mysqli_fetch_assoc($result)) {
-    $rows[] = $row;
+    }
+
+    //var_dump($rows);
+    echo json_encode($rows);
+ 
   }
 
-  //var_dump($rows);
-  //echo json_encode($rows);
+  
 
   //get a single row using a query parameter
   if (isset($_GET['carModel'])) { //see if there's  parameter called carModel

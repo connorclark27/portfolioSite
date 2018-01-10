@@ -65,7 +65,7 @@
         </div>
         <div class="small-12 medium-12 large-8 caseParagraphRight columns">
           <h3 class="caseStudyHeading">LIVE SHOW ADS</h3>
-          <p>Once a month, Western TV puts on a Live show to showcase Western University students' talents including music, magic, dancing, etc. Each month, I produced a 15 second promotional video for to be shared on Facebook to encourage students to attend the show.</p>
+          <p>Once a month, Western TV puts on a Live show to showcase Western University students' talents including music, magic, dancing, etc. Each month, I produced a 15 second promotional video to be shared on Facebook to encourage students to attend the show.</p>
         </div>
   </section>
 
@@ -75,7 +75,7 @@
           WORKMARK DEVELOPMENT
         </p>
         <p class="caseParagraphCenter">
-          While vivaNext had strong branding in the form of their logo and chevron marking, the two symbols where never linked. Through the new motion identity I created, the idea of moving people forward is further pushed with combining the chevron with the vivaNext brand. The motion identity was then applied to the start of all YouTube and FaceBook videos. 
+          In 2017, Western TV
         </p>
         </div>
     </section>
