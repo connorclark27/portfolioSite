@@ -1660,3 +1660,11 @@ VIVA PAGE
   margin: 0 auto;
   text-align: center;
 }
+
+#loyaltyLogo
+{
+  width: 300px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
